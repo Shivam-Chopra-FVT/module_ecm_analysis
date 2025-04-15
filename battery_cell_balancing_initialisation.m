@@ -2,6 +2,7 @@ clear; clc;
 temp_init = 25; % (deg C)
 temp_range = [10,20,30,40]; % (deg C)
 deltaT = 0.05;
+load("val_profiles.mat");
 % terminal voltages were generated randomly between 3.50 & 3.54 volts
 %term_volt = 3.5 + 0.4*rand(12,1);
 term_volt = [3.52714940619431
